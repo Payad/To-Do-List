@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>To Do List</title>
+        <!-- <link ref="stylesheet" href="styles.css"> -->
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <h3>To Do List</h3>
+            <input type="text" class="taskInput" id="taskInput" placeholder="Type something">
+            <button class="addTask" id="addTask">Add Task</button>
+            <button class="hide_list" id="hide_list">Hide List</button>
+        </header>
+
+<!-- List Section -->
+        <section class="list section">
+            <div class="list_container">
+                <ul aria-live="polite">
+                    <li class="listItem" id="listItem">Study</li>
+                    <li class="listItem checked" id="listItem">Practice JavaScript</li>
+                    <li class="listItem" id="listItem">Read a book</li>
+                    <li class="listItem" id="listItem">Walk the dog</li>
+                    <li class="listItem" id="listItem">Learn new cooking recipe</li>
+                    <li class="listItem checked" id="listItem">Clean car</li>
+                    <li class="listItem" id="listItem">Work on computer</li>
+                    <li class="listItem" id="listItem">Excercise</li>
+                    <li class="listItem" id="listItem">Do homework</li>
+                </ul>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+
+</html>
